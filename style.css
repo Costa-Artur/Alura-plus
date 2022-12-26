@@ -1,3 +1,5 @@
+/* declaração de variaveis e estilos da página */
+
 :root {
     --white-main: #ffffff;
     --gray-second: #C0C0C0;
@@ -19,10 +21,15 @@ body {
     padding: 0;
 }
 
+/* Seção principal - grid em colunas para ocupar metade da tela, align itens para deixar no centro da tela e text align para alinhar
+textos ao centro */
+
 .main-section {
     background-image: url("/img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -38,6 +45,7 @@ body {
     color: var(--white-main);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .second_button {
@@ -54,3 +62,47 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
+
+.container__image {
+    margin: 1em 0 2em 0;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+/* Seção secundaria - reutilizando estilos do container */
+
+.second__image {
+    width: 80%;
+} 
+
+.second {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white-main);
+    margin-bottom: 0.1em;
+}
+
+.description__text {
+    color: var(--gray-second);
+}
+
+/* Terceira Seção */
+
+.description__button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__description {
+    padding: 2.5em;
+}
+
+/* Quarta Seção */
+
