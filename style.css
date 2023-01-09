@@ -106,3 +106,58 @@ textos ao centro */
 
 /* Quarta Seção */
 
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: var(--white-main);
+    margin: 5em 0;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    font-size: 48px;
+}
+
+.list__item {
+    font-size: 32px;
+    color: var(--white-main);
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    margin: 5em;
+    
+}
+
+.footer__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.list__link a {
+    color: var(--white-main);
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.footer__text {
+    color: var(--gray-second);
+    margin: 2em 0;
+}
+
+.footer__logo {
+    margin: 3em;
+}
+
+.list__link a:hover {
+    color: var(--blue-button);
+}
